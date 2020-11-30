@@ -4,7 +4,7 @@ class PostComponent extends React.Component {
   render () {
     return (
       <React.Fragment>
-        Greeting: {this.props.greeting}
+        Greeting From Sub directory's Component: {this.props.greeting}
       </React.Fragment>
     );
   }

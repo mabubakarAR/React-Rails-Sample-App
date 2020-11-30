@@ -1,5 +1,5 @@
 class HelloWorldController < ApplicationController
     def index
-       render component: 'HelloWorld', props: { greeting: "Hello from react-rails." }'
+       render :index
     end
 end
